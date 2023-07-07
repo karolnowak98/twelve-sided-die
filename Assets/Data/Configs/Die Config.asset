@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7dfae19c5d41cf842abba77d945d4a, type: 3}
+  m_Name: Die Config
+  m_EditorClassIdentifier: 
+  _rollButtonForceRange: {x: 3, y: 4}
+  _mouseButtonForceRange: {x: 2, y: 8}
+  _holdingHeight: 2
+  _minRotationThreshold: 35
+  _maxRotationDifference: 20
+  _startingTotalNumber: 0
+  _maxTotalNumber: 100
+  _addRandomTorque: 1
+  _randomTorqueForce: 10
+  _defaultTexts:
+    _resultText: 'Result: '
+    _totalText: 'Tota: '
+    _congratsText: Well done! You got all the points!
+    _illegalMoveText: That's illegal move!! 0 points!
